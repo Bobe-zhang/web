@@ -13,6 +13,8 @@
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
+      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
+      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
     </el-table>
   </div>
 </template>
