@@ -3,24 +3,28 @@
     hahha
     <el-button type="primary">按钮</el-button>
     <el-button type="success">按钮</el-button>
-    <el-button type="error">按钮</el-button>
-    <el-table :data="data" style="width: 100%">
-      <el-table-column prop="prop" label="姓名" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="年龄" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="爱好" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-    </el-table>
+    <el-button type="error" @click="click">按钮</el-button>
+    <router-view></router-view>
   </div>
 </template>
-
+ <script>
+ export default {
+   data(){
+     return {}
+   },
+   methods:{
+     click() {
+       this.$router.push({
+         path:'/about'
+       })
+     }
+   }
+ }
+ </script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
