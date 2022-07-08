@@ -12,14 +12,6 @@
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="啊哈哈哈" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="啊哈哈哈" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="啊哈哈哈" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="啊哈哈哈" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="啊哈哈哈" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="啊哈哈哈" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="啊哈哈哈" width="width"> </el-table-column>
     </el-table>
   </div>
 </template>
