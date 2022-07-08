@@ -11,18 +11,19 @@
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
-      <el-table-column prop="prop" label="城市" width="width"> </el-table-column>
+      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
+      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
     </el-table>
   </div>
 </template>
 
 <script>
 export default {
-  name:'AboutView',
-  data(){
+  name: 'AboutView',
+  data() {
     return {
-      data:[]
-    }
-  }
-}
+      data: [],
+    };
+  },
+};
 </script>
