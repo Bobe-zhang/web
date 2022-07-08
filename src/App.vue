@@ -11,6 +11,9 @@
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
       <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
+      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
+      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
+      <el-table-column prop="prop" label="籍贯" width="width"> </el-table-column>
     </el-table>
   </div>
 </template>
@@ -33,7 +36,4 @@ nav a {
   color: #2c3e50;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
